@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+
+# next.js build output
+.next
+out
+
+# env files (later: BetterAuth secrets and Google/GitHub keys go here)
+.env
+.env*.local
+
+# logs
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+
+# vercel
+.vercel
