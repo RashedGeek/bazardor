@@ -11,5 +11,3 @@ Next.js (App Router), React, Tailwind CSS, DaisyUI, react-hot-toast
 4. Product detail page with min / max / average price per bazar
 5. Fully responsive layout with skeleton loaders and a friendly 404 page
 
-## Run
-`npm install && npm run dev`

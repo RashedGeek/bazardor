@@ -1,5 +1,6 @@
 "use client";
 // TODO(auth): protect this route — redirect to /signin + toast when logged out.
+   import Protected from "@/components/Protected";
 import { use } from "react";
 import { getProduct } from "@/lib/api";
 import { money, toBn } from "@/lib/bn";
@@ -87,3 +88,11 @@ export default function Detail({ params }) {
     </div>
   );
 }
+
+   export default function ProductPage(props) {
+     return (
+       <Protected>
+         <Detail {...props} />
+       </Protected>
+     );
+   }
